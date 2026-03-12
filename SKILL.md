@@ -1,6 +1,17 @@
 ---
 name: markitdown
-description: Lightweight Python utility for converting various files to Markdown. Use when converting documents to Markdown format for LLMs, including PDF, PowerPoint, Word, Excel, images, audio, HTML, CSV, JSON, XML, ZIP files, YouTube videos, and EPub books. Supports CLI and Python API, optional dependencies for different formats, plugins, Azure Document Intelligence, and LLM-powered image descriptions.
+description: 文档转Markdown转换工具(markitdown)。当用户需要将各种文件格式转换为Markdown(PDF转Markdown/Word转Markdown/Excel转Markdown/PPT转Markdown/图片转Markdown/音频转Markdown/HTML转Markdown/CSV转Markdown/JSON转Markdown/XML转Markdown/ZIP转Markdown/YouTube视频转Markdown/EPub电子书转Markdown)、使用Azure Document Intelligence进行OCR识别、使用LLM生成图片描述、通过CLI命令行或Python API进行文档转换、处理可选依赖插件等相关任务时立即使用。支持pip install 'markitdown[all]'安装，Python >= 3.10。
+trigger:
+  - 转Markdown
+  - PDF转Markdown
+  - Word转Markdown
+  - Excel转Markdown
+  - 文档转换
+  - markitdown
+  - 文件转MD
+  - PPT转Markdown
+  - 图片转文字
+  - 视频转文字
 ---
 
 # MarkItDown Skill
